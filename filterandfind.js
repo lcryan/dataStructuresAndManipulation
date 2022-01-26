@@ -36,14 +36,14 @@ console.log(franksEmail);
 // Kann nur ein Ding finden.
 // wichtig bei all den methoden ist das man immer ein callback erstellt!
 
-const franksDetails = studentDetails.find((studentDetail) => {
+const frankDetails = studentDetails.find((studentDetail) => {
     if (studentDetail.name === "Frank Heijnen") {
         return true;
     }
     return false;
 });
 
-console.log(franksDetails.email);
+console.log(frankDetails.email);
 
 //Wir wollen alle Studenten aus dem Array heraus FILTERN, die am BOOTCAMP teilnehmen. Also benutzen wir hier FILTER!
 // Filter geht durch das ganze Array hindurch!
