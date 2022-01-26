@@ -21,8 +21,8 @@ const studentDetails = [
         course: "FSD Bootcamp"
     },
     {
-        name: "Lucia Tortilla",
-        email: "lucia.tortilla@novi-education.nl",
+        name: "Maria Tortilla",
+        email: "maria.tortilla@novi-education.nl",
         course: "FSD Bootcamp"
     },
     {
@@ -32,7 +32,7 @@ const studentDetails = [
     }
 ]
 
-//Wir wollen ein neues Array erstellen, das die Emailadressen der Objeckte (s.o.) beinhaltet.
+//Wir wollen ein neues Array erstellen, das die Emailadressen der Objekte (s.o.) beinhaltet.
 // mit einem forloop geht das so:
 //let emails = [];
 //for (let i = 0; i < studentDetails.length; i++) {
